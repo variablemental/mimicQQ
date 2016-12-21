@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex_Person - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Ex_Person.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\acer\Desktop\VCËØ²Ä°ü\Ex_Person\Ex_Person.rc"" 
+Creating temporary file "C:\Users\acer\AppData\Local\Temp\RSP94BC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex_Person.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\acer\Desktop\VCËØ²Ä°ü\Ex_Person\StyleDlg.cpp"
+"C:\Users\acer\Desktop\VCËØ²Ä°ü\Ex_Person\MailDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\acer\AppData\Local\Temp\RSP94BC.tmp" 
+Creating temporary file "C:\Users\acer\AppData\Local\Temp\RSP94DC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ex_Person.pdb" /debug /machine:I386 /out:"Debug/Ex_Person.exe" /pdbtype:sept 
+".\Debug\AboutMIMIC.obj"
+".\Debug\ChatDlg.obj"
+".\Debug\Ex_Person.obj"
+".\Debug\Ex_PersonDlg.obj"
+".\Debug\FontStyle.obj"
+".\Debug\OneDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\StyleDlg.obj"
+".\Debug\TwoDlg.obj"
+".\Debug\Ex_Person.res"
+".\Debug\MailDlg.obj"
+]
+Creating command line "link.exe @C:\Users\acer\AppData\Local\Temp\RSP94DC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+MailDlg.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+StyleDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Ex_Person.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

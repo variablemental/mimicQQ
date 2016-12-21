@@ -1,0 +1,391 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Ex_Person.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Ex_Person.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Ex_Person"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Ex_Person 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2010",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_EX_PERSON_DIALOG DIALOGEX 0, 0, 320, 227
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Q♂Q"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,204,5,109,200,WS_EX_LEFTSCROLLBAR
+    PUSHBUTTON      "聊天",IDC_BUTTON_ADD,158,119,46,14
+    PUSHBUTTON      "修改好友",IDC_BUTTON_CHANGE,158,160,46,14
+    PUSHBUTTON      "删除好友",IDC_BUTTON_DEL,158,139,46,14
+    PUSHBUTTON      "登录",IDC_BUTTON_START,7,167,49,13
+    PUSHBUTTON      "注销",IDC_BUTTON_CANCEL,7,180,49,14
+    LTEXT           "状态：",IDC_STATIC_NETWORK,7,7,151,152
+    EDITTEXT        IDC_EDIT_PORT,101,207,57,13,ES_AUTOHSCROLL
+    LTEXT           "端口:",IDC_STATIC,78,194,23,17
+    EDITTEXT        IDC_EDIT_IP,25,207,52,13,ES_AUTOHSCROLL
+    LTEXT           "IP:",IDC_STATIC_IP,7,194,19,15
+    EDITTEXT        IDC_EDIT_CHAT,57,173,101,21,ES_AUTOHSCROLL
+    LTEXT           "随口聊",IDC_STATIC,56,162,43,9
+    PUSHBUTTON      "发送",IDC_BUTTON_send,122,160,36,14
+    LTEXT           "ta的端口",IDC_STATIC,204,207,39,13
+    EDITTEXT        IDC_EDIT_PEERPORT,245,206,68,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加好友",IDC_BUTTON_INSERT,158,181,46,13
+    PUSHBUTTON      "设置setting",IDC_BUTTON_STYLE,158,7,46,14
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 187, 169
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "学生个人信息"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,34,150,50,14
+    PUSHBUTTON      "取消",IDCANCEL,120,150,50,14
+    LTEXT           "昵称:",IDC_STATIC,10,7,25,8
+    EDITTEXT        IDC_EDIT_NAME,68,7,60,14,ES_AUTOHSCROLL
+    LTEXT           "QQ:",IDC_STATIC,10,26,25,8
+    EDITTEXT        IDC_EDIT_NO,68,24,61,14,ES_AUTOHSCROLL
+    LTEXT           "个性签名:",IDC_STATIC,10,45,42,8
+    LTEXT           "QQ空间:",IDC_STATIC,10,64,41,8
+    LTEXT           "常用IP地址:",IDC_STATIC,10,83,49,8
+    EDITTEXT        IDC_EDIT_IP,68,80,112,14,ES_AUTOHSCROLL
+    LTEXT           "留言:",IDC_STATIC,10,106,25,8
+    EDITTEXT        IDC_EDIT_MESSGAE,68,105,112,35,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MOTTO,68,45,112,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZONE,68,62,112,13,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 283, 176
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "聊天中"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,117,269,36,ES_AUTOHSCROLL
+    PUSHBUTTON      "发送",IDC_BUTTON1,229,155,47,14
+    LTEXT           "输入内容",IDC_STATIC,7,106,49,8
+    LTEXT           "",IDC_STATIC_RES,7,7,243,98
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 187, 155
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    LTEXT           "昵称:",IDC_STATIC,10,7,25,8
+    LTEXT           "QQ:",IDC_STATIC,10,25,25,8
+    LTEXT           "个性签名:",IDC_STATIC,10,42,42,8
+    LTEXT           "QQ空间:",IDC_STATIC,10,60,41,8
+    LTEXT           "常用IP地址:",IDC_STATIC,10,78,49,8
+    LTEXT           "留言:",IDC_STATIC,10,100,25,8
+    EDITTEXT        IDC_EDIT_NAME,68,7,60,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NO,68,23,61,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MOTTO,68,42,112,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZONE,68,58,112,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IP,68,75,112,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MESSGAE,68,99,112,33,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,22,137,50,13
+    PUSHBUTTON      "取消",IDCANCEL,99,137,50,13
+END
+
+IDD_DIALOG4 DIALOG DISCARDABLE  0, 0, 260, 218
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,203,197,50,14
+    LTEXT           "选择你想要更改的条目：",IDC_STATIC,7,6,91,12
+    PUSHBUTTON      "更改字体",IDC_BUTTON_FONT,7,33,118,18
+    PUSHBUTTON      "窗体设置",IDC_BUTTON_WINDOW,125,33,128,18
+    PUSHBUTTON      "网络能力检测",IDC_BUTTON_NETTEST,7,51,118,17
+    PUSHBUTTON      "关于MIMICQQ",IDC_BUTTON4,125,68,128,17
+    PUSHBUTTON      "给我们留言",IDC_BUTTON_SUGGESTION,7,68,118,17
+    PUSHBUTTON      "查看时间",IDC_BUTTON_TIME,125,52,128,15
+END
+
+IDD_DIALOG5 DIALOG DISCARDABLE  0, 0, 316, 221
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,259,200,50,14
+    CTEXT           "你好,MIMICQQ!",IDC_STATIC_SAMPLE,7,7,302,59,
+                    SS_CENTERIMAGE
+    LISTBOX         IDC_LIST1,7,67,179,147,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,226,94,83,12,ES_AUTOHSCROLL
+    LTEXT           "搜索你想要的样式：",IDC_STATIC,223,75,68,19,
+                    SS_CENTERIMAGE
+END
+
+IDD_DIALOG6 DIALOG DISCARDABLE  0, 0, 342, 223
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    LTEXT           "Static",IDC_STATIC_STICK,7,7,328,209
+END
+
+IDD_DIALOG7 DIALOG DISCARDABLE  0, 0, 312, 222
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    LTEXT           "Static",IDC_STATIC_INTRODUCE,7,7,188,85
+    PUSHBUTTON      "邮件联系",IDC_BUTTON_Mail,7,102,53,16
+    PUSHBUTTON      "GitHub",IDC_BUTTON_GitHub,60,101,49,17
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Ex_Person Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Ex_Person\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Ex_Person.EXE\0"
+            VALUE "ProductName", "Ex_Person 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_EX_PERSON_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        VERTGUIDE, 158
+        VERTGUIDE, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+        HORZGUIDE, 194
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 180
+        VERTGUIDE, 10
+        VERTGUIDE, 59
+        VERTGUIDE, 68
+        VERTGUIDE, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+        HORZGUIDE, 7
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        VERTGUIDE, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        VERTGUIDE, 125
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 335
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Ex_Person(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Ex_Person.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
